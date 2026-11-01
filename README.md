@@ -1,8 +1,8 @@
-🛍️ Customer Shopping Behavior Analysis
+Customer Shopping Behavior Analysis
 
 An end-to-end data analytics project that explores how customers shop, using Python, PostgreSQL, Power BI and Gamma. It covers the full workflow: data loading, EDA, cleaning, SQL analysis, dashboarding, reporting and presentation.
 
-📌 Overview
+Overview
 
 Retailers need to understand who their customers are, what they buy and what drives spending. This project analyzes 3,900 customer transactions to answer questions such as:
 
@@ -13,7 +13,7 @@ How loyal is the customer base?
 
 Key numbers: 3,900 customers | $233,081 total revenue | $59.76 average purchase | 3.75 average review rating
 
-📂 Dataset
+Dataset
 Source file: customer_shopping_behavior.csv
 Size: 3,900 rows × 18 columns
 Type	Columns
@@ -21,14 +21,14 @@ Customer	Customer ID, Age, Gender, Location, Subscription Status
 Product	Item Purchased, Category, Size, Color, Season
 Purchase	Purchase Amount (USD), Discount Applied, Promo Code Used, Payment Method, Shipping Type
 Behavior	Review Rating, Previous Purchases, Frequency of Purchases
-🧰 Tools & Technologies
+Tools & Technologies
 Purpose	Tool
 Data loading, EDA, cleaning	Python (Pandas) in Jupyter Notebook
 Database	PostgreSQL (via SQLAlchemy, psycopg2)
 Visualization	Power BI Desktop
 Reporting	Microsoft Word
 Presentation	Gamma (AI presentation tool)
-🔄 Project Steps
+Project Steps
 Load data: read the CSV into a Pandas DataFrame.
 EDA: inspected the data with head(), info(), describe() and null counts.
 Clean data:
@@ -57,7 +57,7 @@ SQL Business Questions
 
 SQL techniques used: aggregations, GROUP BY, subqueries, CTEs, CASE WHEN, window functions (ROW_NUMBER).
 
-📊 Dashboard
+Dashboard
 
 An interactive Power BI dashboard with:
 
@@ -67,7 +67,7 @@ Slicers: subscription status, gender, category, shipping type
 
 Dashboard
 
-✅ Results
+Results
 Clothing leads revenue ($104K, about 45%), followed by Accessories (about 32%).
 Male customers contribute about 68% of revenue, in line with their share of customers. Average spend per order is nearly the same for both genders.
 Subscribers spend about the same as non-subscribers ($59.49 vs. $59.87), so the subscription program adds little spending value today.
@@ -81,7 +81,7 @@ Prioritize Clothing and Accessories in inventory and marketing.
 Redesign subscription perks to make them worthwhile.
 Use discounts selectively on slow-moving items.
 Launch acquisition campaigns to grow the new-customer segment.
-▶️ How to Run
+How to Run
 1. Clone the repository
 bash
 git clone https://github.com/<your-username>/customer-shopping-behavior.git
@@ -105,7 +105,7 @@ Create a database named customer_behavior, then run Customer_Behavior_PostgreSQL
 
 Open Customer_Behavior_Dashboard.pbix in Power BI Desktop. If needed, refresh the data source to point to your local PostgreSQL or the cleaned CSV.
 
-📁 Repository Structure
+Repository Structure
 ├── data/
 │   └── customer_shopping_behavior.csv
 ├── notebooks/
@@ -121,10 +121,10 @@ Open Customer_Behavior_Dashboard.pbix in Power BI Desktop. If needed, refresh th
 ├── presentation/
 │   └── Customer_Shopping_Behavior_PPT (Gamma link or PDF)
 └── README.md
-🔮 Future Improvements
+Future Improvements
 Customer clustering (K-Means) for deeper segmentation
 Predictive model for subscription or high-spend customers
 Live dashboard connected directly to PostgreSQL
-👤 Author
+Author
 
 Shravan
